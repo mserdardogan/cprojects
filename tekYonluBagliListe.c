@@ -43,9 +43,8 @@ int main()
         printf("Lutfen bir sayi giriniz. (-1 cikis yapar.)\n");
         scanf("%d", &girdi);
         if (girdi == -1)
-        {
             break;
-        }
+
         dugum_olustur(kuyruk, girdi);
     }
     bastan_yazdir(bas);
